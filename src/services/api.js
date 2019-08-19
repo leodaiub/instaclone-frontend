@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://localhost:3030',
+    baseURL: 'https://leodaiub-instaclonebackend.netlify.com',
 });
 
 export default api;
